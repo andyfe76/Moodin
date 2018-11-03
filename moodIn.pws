@@ -1,0 +1,573 @@
+<package>
+	<workspace Schema="1.1" ActiveProject="moodIn" ActiveConfiguration="Debug">
+		<project name="moodIn" type="Web" FolderBased="no" ProjectGuid="{E0C63681-8C21-42CA-9AD7-18AE354B00F8}">
+			<command name="View">
+				<![CDATA["C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE" "C:\Andy\moodin\moodIn"]]>
+			</command>
+			<description>
+This project was  generated with PrimalScript 2007
+			</description>
+			<Settings />
+			<Config
+			Name="Debug"
+			>
+				<transfer protocol="ftp" host="ftp.moodin.ro" path="/public_html/test" user="moodin.ro" epassword="€„tu‘y" passive="true" LastPublish="1290008173"/>
+			</Config>
+			<Config
+			Name="Release"
+			>
+				<transfer protocol="ftp" host="ftp.moodin.ro" path="/public_html/test" user="moodin.ro" epassword="€„tu‘y" passive="true"/>
+			</Config>
+			<folder name="admin">
+				<folder name="classes">
+					<file path="admin/classes\categories.php" transfer="true"/>
+					<file path="admin/classes\clients.php" transfer="true"/>
+					<file path="admin/classes\clients_categories.php" transfer="true"/>
+					<file path="admin/classes\cont.php" transfer="true"/>
+					<file path="admin/classes\designers.php" transfer="true"/>
+					<file path="admin/classes\emails.php" transfer="true"/>
+					<file path="admin/classes\events.php" transfer="true"/>
+					<file path="admin/classes\events_categories.php" transfer="true"/>
+					<file path="admin/classes\languages.php" transfer="true"/>
+					<file path="admin/classes\media.php" transfer="true"/>
+					<file path="admin/classes\media_categories.php" transfer="true"/>
+					<file path="admin/classes\mysql.php" transfer="true"/>
+					<file path="admin/classes\news.php" transfer="true"/>
+					<file path="admin/classes\orders.php" transfer="true"/>
+					<file path="admin/classes\page.php" transfer="true"/>
+					<file path="admin/classes\pages.php" transfer="true"/>
+					<file path="admin/classes\products.php" transfer="true"/>
+					<file path="admin/classes\resizeimage.php" transfer="true"/>
+					<file path="admin/classes\state_taxes.php" transfer="true"/>
+					<file path="admin/classes\trends.php" transfer="true"/>
+					<file path="admin/classes\upload.php" transfer="true"/>
+				</folder>
+				<folder name="css">
+					<file path="admin/css\jquery.autocomplete.css" transfer="true"/>
+					<file path="admin/css\main.css" transfer="true"/>
+					<file path="admin/css\mgr_style.css" transfer="true"/>
+					<file path="admin/css\style.css" transfer="true"/>
+					<file path="admin/css\untitled.php" transfer="true"/>
+				</folder>
+				<folder name="images">
+					<file path="admin/images\JSCookMenu_mini.js" transfer="true"/>
+					<file path="admin/images\add_section.png" transfer="true"/>
+					<file path="admin/images\addedit.png" transfer="true"/>
+					<file path="admin/images\addusers.png" transfer="true"/>
+					<file path="admin/images\apply.png" transfer="true"/>
+					<file path="admin/images\apply_f2.png" transfer="true"/>
+					<file path="admin/images\archive.png" transfer="true"/>
+					<file path="admin/images\archive_f2.png" transfer="true"/>
+					<file path="admin/images\arrow.gif" transfer="true"/>
+					<file path="admin/images\arrow.png" transfer="true"/>
+					<file path="admin/images\back.png" transfer="true"/>
+					<file path="admin/images\back_f2.png" transfer="true"/>
+					<file path="admin/images\background.gif" transfer="true"/>
+					<file path="admin/images\background.jpg" transfer="true"/>
+					<file path="admin/images\backup.png" transfer="true"/>
+					<file path="admin/images\bg.png" transfer="true"/>
+					<file path="admin/images\bghead.png" transfer="true"/>
+					<file path="admin/images\biru.png" transfer="true"/>
+					<file path="admin/images\blank.png" transfer="true"/>
+					<file path="admin/images\browser.png" transfer="true"/>
+					<file path="admin/images\calendar.png" transfer="true"/>
+					<file path="admin/images\calendar_f2.png" transfer="true"/>
+					<file path="admin/images\cancel.png" transfer="true"/>
+					<file path="admin/images\cancel_f2.png" transfer="true"/>
+					<file path="admin/images\categories.png" transfer="true"/>
+					<file path="admin/images\checked_out.png" transfer="true"/>
+					<file path="admin/images\checkin.png" transfer="true"/>
+					<file path="admin/images\collapseall.png" transfer="true"/>
+					<file path="admin/images\component.png" transfer="true"/>
+					<file path="admin/images\config.png" transfer="true"/>
+					<file path="admin/images\copy.png" transfer="true"/>
+					<file path="admin/images\copy_f2.png" transfer="true"/>
+					<file path="admin/images\cp.png" transfer="true"/>
+					<file path="admin/images\cpanel.png" transfer="true"/>
+					<file path="admin/images\credits.png" transfer="true"/>
+					<file path="admin/images\css.png" transfer="true"/>
+					<file path="admin/images\css_f2.png" transfer="true"/>
+					<file path="admin/images\cut.png" transfer="true"/>
+					<file path="admin/images\cut_f2.png" transfer="true"/>
+					<file path="admin/images\day.png" transfer="true"/>
+					<file path="admin/images\day_f2.png" transfer="true"/>
+					<file path="admin/images\dbrestore.png" transfer="true"/>
+					<file path="admin/images\delete.png" transfer="true"/>
+					<file path="admin/images\delete_f2.png" transfer="true"/>
+					<file path="admin/images\disabled.png" transfer="true"/>
+					<file path="admin/images\document.png" transfer="true"/>
+					<file path="admin/images\downarrow-1.png" transfer="true"/>
+					<file path="admin/images\downarrow.png" transfer="true"/>
+					<file path="admin/images\downarrow0.png" transfer="true"/>
+					<file path="admin/images\download.png" transfer="true"/>
+					<file path="admin/images\download_f2.png" transfer="true"/>
+					<file path="admin/images\downloads.png" transfer="true"/>
+					<file path="admin/images\downloads_f2.png" transfer="true"/>
+					<file path="admin/images\edit.png" transfer="true"/>
+					<file path="admin/images\edit_f2.png" transfer="true"/>
+					<file path="admin/images\edittime.png" transfer="true"/>
+					<file path="admin/images\edittime_f2.png" transfer="true"/>
+					<file path="admin/images\expandall.png" transfer="true"/>
+					<file path="admin/images\extensions.png" transfer="true"/>
+					<file path="admin/images\extensions_f2.png" transfer="true"/>
+					<file path="admin/images\fav.jpg" transfer="true"/>
+					<file path="admin/images\fav_enabled.png" transfer="true"/>
+					<file path="admin/images\favicon.ico" transfer="true"/>
+					<file path="admin/images\file.png" transfer="true"/>
+					<file path="admin/images\file_f2.png" transfer="true"/>
+					<file path="admin/images\filesave.png" transfer="true"/>
+					<file path="admin/images\folder_add.png" transfer="true"/>
+					<file path="admin/images\folder_add_f2.png" transfer="true"/>
+					<file path="admin/images\forward.png" transfer="true"/>
+					<file path="admin/images\forward_f2.png" transfer="true"/>
+					<file path="admin/images\frontpage.png" transfer="true"/>
+					<file path="admin/images\generic.png" transfer="true"/>
+					<file path="admin/images\globe1.png" transfer="true"/>
+					<file path="admin/images\globe2.png" transfer="true"/>
+					<file path="admin/images\globe3.png" transfer="true"/>
+					<file path="admin/images\go.png" transfer="true"/>
+					<file path="admin/images\go_f2.png" transfer="true"/>
+					<file path="admin/images\groups.png" transfer="true"/>
+					<file path="admin/images\groups_f2.png" transfer="true"/>
+					<file path="admin/images\header_bg.png" transfer="true"/>
+					<file path="admin/images\header_icon.png" transfer="true"/>
+					<file path="admin/images\header_text.png" transfer="true"/>
+					<file path="admin/images\help.png" transfer="true"/>
+					<file path="admin/images\help_f2.png" transfer="true"/>
+					<file path="admin/images\home.png" transfer="true"/>
+					<file path="admin/images\html.png" transfer="true"/>
+					<file path="admin/images\html_f2.png" transfer="true"/>
+					<file path="admin/images\impressions.png" transfer="true"/>
+					<file path="admin/images\inbox.png" transfer="true"/>
+					<file path="admin/images\index.html" transfer="true"/>
+					<file path="admin/images\install.png" transfer="true"/>
+					<file path="admin/images\install_logo.png" transfer="true"/>
+					<file path="admin/images\joomla.js" transfer="true"/>
+					<file path="admin/images\joomla_16x16.png" transfer="true"/>
+					<file path="admin/images\langmanager.png" transfer="true"/>
+					<file path="admin/images\language.png" transfer="true"/>
+					<file path="admin/images\login.gif" transfer="true"/>
+					<file path="admin/images\login_header.png" transfer="true"/>
+					<file path="admin/images\mail.png" transfer="true"/>
+					<file path="admin/images\mass_email.png" transfer="true"/>
+					<file path="admin/images\massemail.png" transfer="true"/>
+					<file path="admin/images\media.png" transfer="true"/>
+					<file path="admin/images\mediamanager.png" transfer="true"/>
+					<file path="admin/images\menu.png" transfer="true"/>
+					<file path="admin/images\menu_divider.png" transfer="true"/>
+					<file path="admin/images\menus.png" transfer="true"/>
+					<file path="admin/images\message_config.png" transfer="true"/>
+					<file path="admin/images\messaging.png" transfer="true"/>
+					<file path="admin/images\messaging_config.png" transfer="true"/>
+					<file path="admin/images\messaging_inbox.png" transfer="true"/>
+					<file path="admin/images\module.png" transfer="true"/>
+					<file path="admin/images\mojomenu.png" transfer="true"/>
+					<file path="admin/images\month.png" transfer="true"/>
+					<file path="admin/images\month_f2.png" transfer="true"/>
+					<file path="admin/images\move.png" transfer="true"/>
+					<file path="admin/images\move_f2.png" transfer="true"/>
+					<file path="admin/images\new.png" transfer="true"/>
+					<file path="admin/images\new_f2.png" transfer="true"/>
+					<file path="admin/images\next.png" transfer="true"/>
+					<file path="admin/images\next_f2.png" transfer="true"/>
+					<file path="admin/images\nomail.png" transfer="true"/>
+					<file path="admin/images\note.png" transfer="true"/>
+					<file path="admin/images\note_f2.png" transfer="true"/>
+					<file path="admin/images\overlib_hideform_mini.js" transfer="true"/>
+					<file path="admin/images\overlib_mini.js" transfer="true"/>
+					<file path="admin/images\paste.png" transfer="true"/>
+					<file path="admin/images\paste_f2.png" transfer="true"/>
+					<file path="admin/images\preview.png" transfer="true"/>
+					<file path="admin/images\preview_f2.png" transfer="true"/>
+					<file path="admin/images\print.png" transfer="true"/>
+					<file path="admin/images\print_f2.png" transfer="true"/>
+					<file path="admin/images\properties.png" transfer="true"/>
+					<file path="admin/images\properties_f2.png" transfer="true"/>
+					<file path="admin/images\publish.png" transfer="true"/>
+					<file path="admin/images\publish_f2.png" transfer="true"/>
+					<file path="admin/images\publish_g.png" transfer="true"/>
+					<file path="admin/images\publish_r.png" transfer="true"/>
+					<file path="admin/images\publish_x.png" transfer="true"/>
+					<file path="admin/images\publish_y.png" transfer="true"/>
+					<file path="admin/images\query.png" transfer="true"/>
+					<file path="admin/images\reload.png" transfer="true"/>
+					<file path="admin/images\reload_f2.png" transfer="true"/>
+					<file path="admin/images\rename.png" transfer="true"/>
+					<file path="admin/images\rename_f2.png" transfer="true"/>
+					<file path="admin/images\restore.png" transfer="true"/>
+					<file path="admin/images\restore_f2.png" transfer="true"/>
+					<file path="admin/images\restoredb.png" transfer="true"/>
+					<file path="admin/images\save.png" transfer="true"/>
+					<file path="admin/images\save_f2.png" transfer="true"/>
+					<file path="admin/images\search.png" transfer="true"/>
+					<file path="admin/images\search_f2.png" transfer="true"/>
+					<file path="admin/images\search_text.png" transfer="true"/>
+					<file path="admin/images\searchtext.png" transfer="true"/>
+					<file path="admin/images\sections.png" transfer="true"/>
+					<file path="admin/images\security.png" transfer="true"/>
+					<file path="admin/images\security_f2.png" transfer="true"/>
+					<file path="admin/images\shad_top.png" transfer="true"/>
+					<file path="admin/images\support.png" transfer="true"/>
+					<file path="admin/images\switch.png" transfer="true"/>
+					<file path="admin/images\switch_f2.png" transfer="true"/>
+					<file path="admin/images\sysinfo.png" transfer="true"/>
+					<file path="admin/images\systeminfo.png" transfer="true"/>
+					<file path="admin/images\task.png" transfer="true"/>
+					<file path="admin/images\task_f2.png" transfer="true"/>
+					<file path="admin/images\template.png" transfer="true"/>
+					<file path="admin/images\template_css.css" transfer="true"/>
+					<file path="admin/images\templatemanager.png" transfer="true"/>
+					<file path="admin/images\theme.css" transfer="true"/>
+					<file path="admin/images\theme.js" transfer="true"/>
+					<file path="admin/images\themes.png" transfer="true"/>
+					<file path="admin/images\themes_f2.png" transfer="true"/>
+					<file path="admin/images\tick.png" transfer="true"/>
+					<file path="admin/images\tool.png" transfer="true"/>
+					<file path="admin/images\tool_f2.png" transfer="true"/>
+					<file path="admin/images\trash.png" transfer="true"/>
+					<file path="admin/images\unarchive.png" transfer="true"/>
+					<file path="admin/images\unarchive_f2.png" transfer="true"/>
+					<file path="admin/images\unpublish.png" transfer="true"/>
+					<file path="admin/images\unpublish_f2.png" transfer="true"/>
+					<file path="admin/images\uparrow-1.png" transfer="true"/>
+					<file path="admin/images\uparrow.png" transfer="true"/>
+					<file path="admin/images\uparrow0.png" transfer="true"/>
+					<file path="admin/images\upload.png" transfer="true"/>
+					<file path="admin/images\upload_f2.png" transfer="true"/>
+					<file path="admin/images\user.png" transfer="true"/>
+					<file path="admin/images\users.png" transfer="true"/>
+					<file path="admin/images\users_002.png" transfer="true"/>
+					<file path="admin/images\version.png" transfer="true"/>
+					<file path="admin/images\week.png" transfer="true"/>
+					<file path="admin/images\week_f2.png" transfer="true"/>
+					<file path="admin/images\xml.png" transfer="true"/>
+					<file path="admin/images\xml_f2.png" transfer="true"/>
+				</folder>
+				<folder name="js">
+					<file path="admin/js\functions.js" transfer="true"/>
+					<file path="admin/js\jquery.autocomplete.min.js" transfer="true"/>
+					<file path="admin/js\jquery.form.js" transfer="true"/>
+					<file path="admin/js\jquery.table.js" transfer="true"/>
+					<file path="admin/js\jquery.ui.js" transfer="true"/>
+					<file path="admin/js\sifr-addons.js" transfer="true"/>
+					<file path="admin/js\sifr.js" transfer="true"/>
+					<file path="admin/js\swfobject.js" transfer="true"/>
+				</folder>
+				<folder name="resources">
+					<folder name="css">
+						<file path="admin/resources/css\invalid.css" transfer="true"/>
+						<file path="admin/resources/css\reset.css" transfer="true"/>
+						<file path="admin/resources/css\style.css" transfer="true"/>
+					</folder>
+					<folder name="images">
+						<folder name="icons">
+							<file path="admin/resources/images/icons\clock_48.png" transfer="true"/>
+							<file path="admin/resources/images/icons\comment_48.png" transfer="true"/>
+							<file path="admin/resources/images/icons\cross.png" transfer="true"/>
+							<file path="admin/resources/images/icons\cross_circle.png" transfer="true"/>
+							<file path="admin/resources/images/icons\cross_grey_small.png" transfer="true"/>
+							<file path="admin/resources/images/icons\exclamation.png" transfer="true"/>
+							<file path="admin/resources/images/icons\hammer_screwdriver.png" transfer="true"/>
+							<file path="admin/resources/images/icons\image_add_48.png" transfer="true"/>
+							<file path="admin/resources/images/icons\information.png" transfer="true"/>
+							<file path="admin/resources/images/icons\jquery.wysiwyg.gif" transfer="true"/>
+							<file path="admin/resources/images/icons\paper_content_pencil_48.png" transfer="true"/>
+							<file path="admin/resources/images/icons\pencil.png" transfer="true"/>
+							<file path="admin/resources/images/icons\pencil_48.png" transfer="true"/>
+							<file path="admin/resources/images/icons\tick_circle.png" transfer="true"/>
+						</folder>
+						<file path="admin/resources/images\b.png" transfer="true"/>
+						<file path="admin/resources/images\bg-body.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-button-green.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-content-box.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-form-field.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-login-top.png" transfer="true"/>
+						<file path="admin/resources/images\bg-login.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-menu-item-current.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-menu-item-green.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-radial-gradient.gif" transfer="true"/>
+						<file path="admin/resources/images\bg-sidebar.gif" transfer="true"/>
+						<file path="admin/resources/images\bl.png" transfer="true"/>
+						<file path="admin/resources/images\br.png" transfer="true"/>
+						<file path="admin/resources/images\bullet_black.png" transfer="true"/>
+						<file path="admin/resources/images\closelabel.gif" transfer="true"/>
+						<file path="admin/resources/images\information.png" transfer="true"/>
+						<file path="admin/resources/images\logo.png" transfer="true"/>
+						<file path="admin/resources/images\menu-current-arrow.gif" transfer="true"/>
+						<file path="admin/resources/images\shortcut-button-bg.gif" transfer="true"/>
+						<file path="admin/resources/images\tl.png" transfer="true"/>
+						<file path="admin/resources/images\tr.png" transfer="true"/>
+					</folder>
+					<folder name="scripts">
+						<file path="admin/resources/scripts\facebox.js" transfer="true"/>
+						<file path="admin/resources/scripts\jquery-1.3.2.min.js" transfer="true"/>
+						<file path="admin/resources/scripts\jquery.wysiwyg.js" transfer="true"/>
+						<file path="admin/resources/scripts\simpla.jquery.configuration.js" transfer="true"/>
+					</folder>
+				</folder>
+				<folder name="uploadify">
+					<folder name="com">
+						<folder name="adobe">
+							<folder name="air">
+								<folder name="logging">
+									<file path="admin/uploadify/com/adobe/air/logging\FileTarget.as" transfer="true"/>
+								</folder>
+							</folder>
+							<folder name="crypto">
+								<file path="admin/uploadify/com/adobe/crypto\HMAC.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\MD5.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\MD5Stream.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\SHA1.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\SHA224.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\SHA256.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/crypto\WSSEUsernameToken.as" transfer="true"/>
+							</folder>
+							<folder name="errors">
+								<file path="admin/uploadify/com/adobe/errors\IllegalStateError.as" transfer="true"/>
+							</folder>
+							<folder name="fileformats">
+								<folder name="vcard">
+									<file path="admin/uploadify/com/adobe/fileformats/vcard\Address.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/fileformats/vcard\Email.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/fileformats/vcard\Phone.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/fileformats/vcard\VCard.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/fileformats/vcard\VCardParser.as" transfer="true"/>
+								</folder>
+							</folder>
+							<folder name="images">
+								<file path="admin/uploadify/com/adobe/images\BitString.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/images\JPGEncoder.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/images\PNGEncoder.as" transfer="true"/>
+							</folder>
+							<folder name="net">
+								<folder name="proxies">
+									<file path="admin/uploadify/com/adobe/net/proxies\RFC2817Socket.as" transfer="true"/>
+								</folder>
+								<file path="admin/uploadify/com/adobe/net\DynamicURLLoader.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/net\IURIResolver.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/net\MimeTypeMap.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/net\URI.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/net\URIEncodingBitmap.as" transfer="true"/>
+							</folder>
+							<folder name="protocols">
+								<folder name="dict">
+									<folder name="events">
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\ConnectedEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\DatabaseEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\DefinitionEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\DefinitionHeaderEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\DictionaryServerEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\DisconnectedEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\ErrorEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\MatchEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\MatchStrategiesEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/events\NoMatchEvent.as" transfer="true"/>
+									</folder>
+									<folder name="util">
+										<file path="admin/uploadify/com/adobe/protocols/dict/util\CompleteResponseEvent.as" transfer="true"/>
+										<file path="admin/uploadify/com/adobe/protocols/dict/util\SocketHelper.as" transfer="true"/>
+									</folder>
+									<file path="admin/uploadify/com/adobe/protocols/dict\Database.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/protocols/dict\Definition.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/protocols/dict\Dict.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/protocols/dict\DictionaryServer.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/protocols/dict\MatchStrategy.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/protocols/dict\Response.as" transfer="true"/>
+								</folder>
+							</folder>
+							<folder name="serialization">
+								<folder name="json">
+									<file path="admin/uploadify/com/adobe/serialization/json\JSON.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONDecoder.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONEncoder.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONParseError.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONToken.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONTokenType.as" transfer="true"/>
+									<file path="admin/uploadify/com/adobe/serialization/json\JSONTokenizer.as" transfer="true"/>
+								</folder>
+							</folder>
+							<folder name="utils">
+								<file path="admin/uploadify/com/adobe/utils\ArrayUtil.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\DateUtil.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\DictionaryUtil.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\IntUtil.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\NumberFormatter.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\StringUtil.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/utils\XMLUtil.as" transfer="true"/>
+							</folder>
+							<folder name="webapis">
+								<folder name="events">
+									<file path="admin/uploadify/com/adobe/webapis/events\ServiceEvent.as" transfer="true"/>
+								</folder>
+								<file path="admin/uploadify/com/adobe/webapis\ServiceBase.as" transfer="true"/>
+								<file path="admin/uploadify/com/adobe/webapis\URLLoaderBase.as" transfer="true"/>
+							</folder>
+						</folder>
+					</folder>
+					<folder name="example">
+						<folder name="css">
+							<file path="admin/uploadify/example/css\default.css" transfer="true"/>
+							<file path="admin/uploadify/example/css\uploadify.css" transfer="true"/>
+						</folder>
+						<folder name="scripts">
+							<file path="admin/uploadify/example/scripts\check.php" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\expressInstall.swf" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\jquery-1.3.2.min.js" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\jquery.uploadify.v2.1.0.min.js" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\swfobject.js" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\uploadify.php" transfer="true"/>
+							<file path="admin/uploadify/example/scripts\uploadify.swf" transfer="true"/>
+						</folder>
+						<folder name="uploads">
+						</folder>
+						<file path="admin/uploadify/example\cancel.png" transfer="true"/>
+						<file path="admin/uploadify/example\index.php" transfer="true"/>
+					</folder>
+					<file path="admin/uploadify\Uploadify v2.1.0 Manual.pdf" transfer="true"/>
+					<file path="admin/uploadify\cancel.png" transfer="true"/>
+					<file path="admin/uploadify\check.php" transfer="true"/>
+					<file path="admin/uploadify\classes.php" transfer="true"/>
+					<file path="admin/uploadify\expressInstall.swf" transfer="true"/>
+					<file path="admin/uploadify\jquery-1.3.2.min.js" transfer="true"/>
+					<file path="admin/uploadify\jquery.uploadify.v2.1.0.js" transfer="true"/>
+					<file path="admin/uploadify\jquery.uploadify.v2.1.0.min.js" transfer="true"/>
+					<file path="admin/uploadify\swfobject.js" transfer="true"/>
+					<file path="admin/uploadify\uploadify.allglyphs.swf" transfer="true"/>
+					<file path="admin/uploadify\uploadify.css" transfer="true"/>
+					<file path="admin/uploadify\uploadify.fla" transfer="true"/>
+					<file path="admin/uploadify\uploadify.php" transfer="true"/>
+					<file path="admin/uploadify\uploadify.swf" transfer="true"/>
+				</folder>
+				<file path="admin\classes.php" transfer="true"/>
+				<file path="admin\contests.php" transfer="true"/>
+				<file path="admin\fields.php" transfer="true"/>
+				<file path="admin\index.php" transfer="true"/>
+				<file path="admin\items.php" transfer="true"/>
+				<file path="admin\login.php" transfer="true"/>
+				<file path="admin\option.php" transfer="true"/>
+				<file path="admin\question2.php" transfer="true"/>
+				<file path="admin\question3.php" transfer="true"/>
+				<file path="admin\resizeimage.php" transfer="true"/>
+				<file path="admin\templates.php" transfer="true"/>
+				<file path="admin\upload_class.php" transfer="true"/>
+				<file path="admin\users.php" transfer="true"/>
+			</folder>
+			<folder name="carousel">
+				<folder name="examples">
+					<folder name="images">
+						<file path="carousel/examples/images\arrow-down.gif" transfer="true"/>
+						<file path="carousel/examples/images\arrow-up.gif" transfer="true"/>
+						<file path="carousel/examples/images\loading-small.gif" transfer="true"/>
+						<file path="carousel/examples/images\loading-thickbox.gif" transfer="true"/>
+						<file path="carousel/examples/images\loading.gif" transfer="true"/>
+					</folder>
+					<folder name="thickbox">
+						<file path="carousel/examples/thickbox\thickbox.css" transfer="true"/>
+						<file path="carousel/examples/thickbox\thickbox.js" transfer="true"/>
+					</folder>
+					<file path="carousel/examples\dynamic_ajax.html" transfer="true"/>
+					<file path="carousel/examples\dynamic_ajax.txt" transfer="true"/>
+					<file path="carousel/examples\dynamic_ajax_php.html" transfer="true"/>
+					<file path="carousel/examples\dynamic_ajax_php.php" transfer="true"/>
+					<file path="carousel/examples\dynamic_flickr_api.html" transfer="true"/>
+					<file path="carousel/examples\dynamic_flickr_api.php" transfer="true"/>
+					<file path="carousel/examples\dynamic_flickr_feed.html" transfer="true"/>
+					<file path="carousel/examples\dynamic_flickr_feed.php" transfer="true"/>
+					<file path="carousel/examples\dynamic_javascript.html" transfer="true"/>
+					<file path="carousel/examples\special_circular.html" transfer="true"/>
+					<file path="carousel/examples\special_easing.html" transfer="true"/>
+					<file path="carousel/examples\special_flexible.html" transfer="true"/>
+					<file path="carousel/examples\special_textscroller.html" transfer="true"/>
+					<file path="carousel/examples\special_textscroller.php" transfer="true"/>
+					<file path="carousel/examples\special_thickbox.html" transfer="true"/>
+					<file path="carousel/examples\static_auto.html" transfer="true"/>
+					<file path="carousel/examples\static_callbacks.html" transfer="true"/>
+					<file path="carousel/examples\static_circular.html" transfer="true"/>
+					<file path="carousel/examples\static_controls.html" transfer="true"/>
+					<file path="carousel/examples\static_multiple.html" transfer="true"/>
+					<file path="carousel/examples\static_simple.html" transfer="true"/>
+					<file path="carousel/examples\static_start.html" transfer="true"/>
+					<file path="carousel/examples\static_vertical.html" transfer="true"/>
+				</folder>
+				<folder name="lib">
+					<file path="carousel/lib\jquery-1.4.2.min.js" transfer="true"/>
+					<file path="carousel/lib\jquery.jcarousel.js" transfer="true"/>
+					<file path="carousel/lib\jquery.jcarousel.min.js" transfer="true"/>
+				</folder>
+				<folder name="skins">
+					<folder name="ie7">
+						<file path="carousel/skins/ie7\credits.txt" transfer="true"/>
+						<file path="carousel/skins/ie7\loading-small.gif" transfer="true"/>
+						<file path="carousel/skins/ie7\loading.gif" transfer="true"/>
+						<file path="carousel/skins/ie7\loading_small.gif" transfer="true"/>
+						<file path="carousel/skins/ie7\next-horizontal.gif" transfer="true"/>
+						<file path="carousel/skins/ie7\prev-horizontal.gif" transfer="true"/>
+						<file path="carousel/skins/ie7\skin.css" transfer="true"/>
+					</folder>
+					<folder name="tango">
+						<file path="carousel/skins/tango\credits.txt" transfer="true"/>
+						<file path="carousel/skins/tango\next-horizontal.png" transfer="true"/>
+						<file path="carousel/skins/tango\next-vertical.png" transfer="true"/>
+						<file path="carousel/skins/tango\prev-horizontal.png" transfer="true"/>
+						<file path="carousel/skins/tango\prev-vertical.png" transfer="true"/>
+						<file path="carousel/skins/tango\skin.css" transfer="true"/>
+					</folder>
+				</folder>
+				<file path="carousel\README" transfer="true"/>
+				<file path="carousel\carousel2.js" transfer="true"/>
+				<file path="carousel\changelog.html" transfer="true"/>
+				<file path="carousel\style.css" transfer="true"/>
+			</folder>
+			<folder name="images">
+				<file path="images\happy.gif" transfer="true"/>
+				<file path="images\img01.gif" transfer="true"/>
+				<file path="images\img02.gif" transfer="true"/>
+				<file path="images\img03.jpg" transfer="true"/>
+				<file path="images\img04.gif" transfer="true"/>
+				<file path="images\img05.gif" transfer="true"/>
+				<file path="images\img06.jpg" transfer="true"/>
+				<file path="images\img07.gif" transfer="true"/>
+				<file path="images\img08.gif" transfer="true"/>
+				<file path="images\img09.jpg" transfer="true"/>
+				<file path="images\img10.gif" transfer="true"/>
+				<file path="images\img11.gif" transfer="true"/>
+				<file path="images\need.gif" transfer="true"/>
+				<file path="images\sad.gif" transfer="true"/>
+				<file path="images\silver-church-logo.jpg" transfer="true"/>
+				<file path="images\silver-church.jpg" transfer="true"/>
+				<file path="images\spacer.gif" transfer="true"/>
+				<file path="images\logo.gif" transfer="true" build="true"/>
+			</folder>
+			<folder name="img_edit">
+				<file path="img_edit\16022010278.jpg" transfer="true"/>
+				<file path="img_edit\16022010279.jpg" transfer="true"/>
+				<file path="img_edit\16022010280.jpg" transfer="true"/>
+				<file path="img_edit\16022010282.jpg" transfer="true"/>
+				<file path="img_edit\16022010283.jpg" transfer="true"/>
+				<file path="img_edit\Chrysanthemum.jpg" transfer="true"/>
+				<file path="img_edit\Desert.jpg" transfer="true"/>
+				<file path="img_edit\Hydrangeas.jpg" transfer="true"/>
+				<file path="img_edit\Jellyfish.jpg" transfer="true"/>
+				<file path="img_edit\Koala.jpg" transfer="true"/>
+				<file path="img_edit\Lighthouse.jpg" transfer="true"/>
+				<file path="img_edit\Tulips.jpg" transfer="true"/>
+				<file path="img_edit\mall lenjerie hp.png" transfer="true"/>
+			</folder>
+			<file path=".htaccess" transfer="true"/>
+			<file path="carousel.js" transfer="true"/>
+			<file path="carousel_jos.php" transfer="true"/>
+			<file path="dbconnect.php" transfer="true"/>
+			<file path="default.css" transfer="true"/>
+			<file path="good-joyful.html" transfer="true"/>
+			<file path="good.html" transfer="true"/>
+			<file path="index.html" transfer="true"/>
+			<file path="index.php" transfer="true"/>
+			<file path="item.php" transfer="true"/>
+			<file path="jquery.corner.js" transfer="true"/>
+			<file path="jquery.js" transfer="true"/>
+			<file path="jquery.tools.min.js" transfer="true"/>
+			<file path="license.txt" transfer="true"/>
+			<file path="process.php" transfer="true"/>
+		</project>
+	</workspace>
+</package>
