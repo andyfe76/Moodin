@@ -7,10 +7,15 @@ $line2=mysql_fetch_array($result);
 $line3=mysql_fetch_array($result);
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+-->
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-<title>moodIn</title>
+<title>Moodin.cy</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link href="default.css" rel="stylesheet" type="text/css" />
@@ -23,9 +28,8 @@ $(document).ready(function()
 		
 		
 		
-		$(".options").click(function(evt)
+		$(".options").click(function()
 			{
-				
 			$(".options").removeClass("active");
 			$(this).addClass("active");
 			var oid=$(this).attr("oid");		
@@ -38,17 +42,13 @@ $(document).ready(function()
 					$("#menu3").html("");
 					$("#question3").html("");
 					$("#items").html("");
-					$("#footer").html("");
-evt.preventDefault();
-		return false;
 			
 			});
 		
-		$("#close").click(function(evt){
-								
+		$("#close").click(function(){
+								   
 								   $("#overlay").fadeOut("slow");
 								   $("#modal").fadeOut("slow");
-								      evt.preventDefault();
 								   return false;
 								   });
 		
@@ -93,18 +93,19 @@ evt.preventDefault();
 </head>
 <body>
 <div id="logo">
-	<h1><a href="index.php"><img src="images/logo.gif"></a>&nbsp;&nbsp;&nbsp;<a href="javascript:void(0)" id="optext"></a></h1>
+	<h1><a href="#" id="optext">Select an option:</a></h1>
 </div>
 <div id="menu">
 	<ul>
 		<li class="options" rel="#mies1" oid="1"><a href="#" title=""><img src="images/happy.gif"><?=$line1['name']?></a></li>
-		<li class="options" oid="2"><a href="#undefined" title=""><img src="images/sad.gif"><?=$line2['name']?></a></li>
-		<li class="options" oid="3"><a href="#undefined" title=""><img src="images/need.gif"><?=$line3['name']?></a></li>
+		<li class="options" oid="2"><a href="#" title=""><img src="images/sad.gif"><?=$line2['name']?></a></li>
+		<li class="options" oid="3"><a href="#" title=""><img src="images/need.gif"><?=$line3['name']?></a></li>
 	</ul>
 </div>
-<div id="wrapper" style="min-height:700px;">
+<div id="wrapper">
 	<div id="col-one">
-		<div class="container" style="position:relative;">
+		<div class="image"><img src="images/img03.jpg" alt="" width="180" height="150" /></div>
+		<div class="container">
 			<div class="boxed">
 				<h2 class="title" id="question1"></h2>
 					
@@ -116,7 +117,7 @@ evt.preventDefault();
 		</div>
 	</div>
 	<div id="col-two">
-		
+		<div class="image"><img src="images/img09.jpg" alt="" width="300" height="150" /></div>
 		<div class="container">
 			<div class="boxed">
 		 		<h2 class="title" id="question3"></h2>
@@ -127,7 +128,7 @@ evt.preventDefault();
 		</div>
 	</div>
 	<div id="col-three">
-		
+		<div class="image"><img src="images/img06.jpg" alt="" width="180" height="150" /></div>
 		<div class="container">
 		 	<div class="boxed">
 		 		<h2 class="title" id="question2"></h2>
@@ -139,11 +140,11 @@ evt.preventDefault();
 	</div>
 	
 	
-	<div id="extra" style="clear: both; position:absolute; bottom:0px;  ">
+	<div id="extra" style="clear: both;">
 	
 	</div>
 </div>
-<div id="footer" align="center">
+<div id="footer">
 
 
 
@@ -152,7 +153,7 @@ evt.preventDefault();
 </div>
 <div style="position:fixed; width:600px; height:300px; background-color:#FFF; left:25%; top:25%; padding:10px; display:none;" id="modal">
 <div style="position:relative">
-<div ><a href="#undefined" id="close">CLOSE</a></div>
+<div ><a href="#" id="close">CLOSE</a></div>
 <div id="modal_content">
 
 </div>

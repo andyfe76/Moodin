@@ -20,11 +20,6 @@ body,html
 margin:0px;
 }
 
-.disabled
-	{
-		visibility:hidden;
-	}
-
 </style>
 <script src="jquery.js" type="text/javascript">
 
@@ -58,37 +53,39 @@ $('.mycarousel234').carousel({direction:"vertical"});
                     
      echo '</ul></div>';
     ?></td>
-    <td width="103"><?=$text?></td>
-    <td width="173"><?php
+    <td width="103">
+      <?php
     echo '<div class="mycarousel234"  ><ul>';
     $s2="SELECT * FROM images WHERE item_id='$parent[id]'";
 					$r2=mysql_query($s2);
 					while($l2=mysql_fetch_array($r2))
 					{
                     ?>
-      <ul>
-        <li > <img width="80" src="img_edit/<?=$l2['image']?>" /> </li>
-      </ul>
-    <?php
+      <li >
+        <img width="80" src="img_edit/<?=$l2['image']?>" />
+        </li>
+      <?php
 					}
                     
      echo '</ul></div>';
-    ?></td>
-    <td width="173">&nbsp;
-      <?php
+    ?>
+    </td>
+    <td width="173">
+    
+     <?php
 	 //campuri custom item
 					$s2="SELECT * FROM custom_fields WHERE item_id='$parent[id]' ";
 					$r2=mysql_query($s2) or die(mysql_error());
 					while($l2=mysql_fetch_array($r2))
 						{
 					?>
-      <?=$l2['name']?>
-      :
-      <?=$l2['value']?>
-      <br />
-    <?php	
+                    
+                    <?=$l2['name']?>:<?=$l2['value']?><br>
+                    <?php	
 						}
-					?></td>
+					?>
+    </td>
+    <td width="173"><?=$text?>&nbsp;</td>
   </tr>
   <tr>
     <td colspan="3">
@@ -108,10 +105,5 @@ $('.mycarousel234').carousel({direction:"vertical"});
     </td>
   </tr>
 </table>
-
-<?php
-
-mysql_close();
-?>
 
 

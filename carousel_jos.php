@@ -7,21 +7,6 @@ include ("dbconnect.php");
 
 $(document).ready(function(){
     jQuery('#mycarousel').jcarousel();
-	
-	$(".item_image").click(function(){
-								var iid=$(this).attr("iid");
-								$("#modal_content",top.document).load("process.php?action=show_item&id="+iid,
-														 
-														 
-														 
-														 function(){
-								$("#overlay",window.parent.document).fadeIn("slow");
-								$("#modal",window.parent.document).fadeIn("slow");
-																	 });
-								
-								
-								});
-
 });
 
 </script>
@@ -79,7 +64,7 @@ $l3=mysql_fetch_array($r3);
                     <img iid="<?=$l['id']?>" style="cursor:pointer;"  class="item_image" src="img_edit/<?=$l2['image']?>" width="100"></td>
     				<td><font size="1px">
                     <?php
-					$s2="SELECT * FROM custom_fields WHERE item_id='$l[id]' AND star='1' ";
+					$s2="SELECT * FROM custom_fields WHERE item_id='$l[id]' ";
 					$r2=mysql_query($s2) or die(mysql_error());
 					while($l2=mysql_fetch_array($r2))
 						{

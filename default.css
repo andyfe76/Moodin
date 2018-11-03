@@ -97,7 +97,7 @@ img {
 /* Logo */
 
 #logo {
-	width: 880px;
+	width: 680px;
 	height: 50px;
 	margin: 0 auto;
 	padding: 40px 0 0 0;
@@ -123,7 +123,7 @@ img {
 /* Menu */
 
 #menu {
-	width: 880px;
+	width: 680px;
 	height: 70px;
 	margin: -50px auto 0 auto;
 }
@@ -144,7 +144,7 @@ img {
 	text-decoration: none;
 	text-transform: uppercase;
 	border-bottom: 5px solid #EEEEEE;
-	font-size: small;
+	font-size: xx-small;
 	font-weight: bold;
 }
 
@@ -215,7 +215,7 @@ img {
 
 #wrapper {
 	clear: both;
-	width: 880px;
+	width: 680px;
 	margin: 0 auto;
 	background: url(images/img01.gif) repeat-y;
 }
@@ -277,7 +277,7 @@ img {
 
 #col-two {
 	float: right;
-	width: 500px;
+	width: 300px;
 	margin-left: 10px;
 	padding-top: 10px;
 	background: url(images/img08.gif) no-repeat;
@@ -292,12 +292,10 @@ img {
 }
 
 #col-two .boxed {
-	
 }
 
 #col-two .boxed .title {
 	color: #4DAB50;
-	
 }
 
 #col-two .boxed .content {
@@ -353,7 +351,7 @@ img {
 
 #footer p {
 	margin: 0;
-	width: 880px;
+	width: 680px;
 	margin: 0 auto;
 	font-size: x-small;
 }

@@ -48,17 +48,15 @@ function get_question2_answers()
 ?>
 <script type="text/javascript">
 
-$(".q2a").click(function(evt)
+$(".q2a").click(function()
 		{
-			
 		$(".q2a").removeClass("active");
 		$(this).addClass("active");
 		var aid=$(this).attr("aid");
 		$("#question3").load("process.php?action=get_question3&answer="+aid);
 		$("#items").load("process.php?action=get_items&answer="+aid);
 		$("#footer").load("process.php?action=get_tag_items&answer="+aid);
-			evt.preventDefault();
-		return false;
+
 		});
 
 
@@ -75,7 +73,7 @@ $(".q2a").click(function(evt)
 	echo "<ul>";
 	while($l=mysql_fetch_array($r))
 		{
-			echo "<li aid='$l[id]' class='q2a'><a href='javascript:void(0)' title=''>$l[text]</a></li><br>";
+			echo "<li aid='$l[id]' class='q2a'><a href='#' title=''>$l[text]</a></li><br>";
 		}
 	echo "</ul>";
 	
@@ -100,18 +98,11 @@ function get_items()
 {
 ?>
 <script type="text/javascript" src="carousel.js"></script>
-<style type="text/css">
 
-.disabled
-{
-	visibility:hidden;
-}
-</style>
 <script type="text/javascript">
-$('#mycarousel').carousel( { direction: "vertical", dispItems: 2 });
+$('#mycarousel').carousel( { direction: "vertical", dispItems: 2,loop:false });
 
-$(".item_image").click(function(evt){
-
+$(".item_image").click(function(){
 								var iid=$(this).attr("iid");
 								$("#modal_content").load("process.php?action=show_item&id="+iid,
 														 
@@ -121,8 +112,8 @@ $(".item_image").click(function(evt){
 								$("#overlay").fadeIn("slow");
 								$("#modal").fadeIn("slow");
 																	 });
-									evt.preventDefault();
-										return false;
+								
+								
 								});
 
 </script>
@@ -173,7 +164,7 @@ $l3=mysql_fetch_array($r3);
   				      
 			        </font> 
   				    <?php
-					if(is_file("img_edit/".$l3['image']))
+					if($l3['image'])
 					{
 						?>
   				    <img src="img_edit/<?=$l3['image']?>" style="float:right; margin-left:2px;" width="80px">
@@ -190,7 +181,7 @@ $l3=mysql_fetch_array($r3);
 <?php                
 	}
 	
-echo "</ul></div><div style='clear:both;'></div>";
+echo "</ul></div>";
 
 
 }
@@ -199,9 +190,8 @@ function get_question1_answers()
 ?>
 <script type="text/javascript">
 
-$(".q1a").click(function(evt)
+$(".q1a").click(function()
 		{
-			
 		$(".q1a").removeClass("active");
 		$(this).addClass("active");
 		var aid=$(this).attr("aid");
@@ -209,9 +199,6 @@ $(".q1a").click(function(evt)
 		$("#menu3").load("process.php?action=get_question2_answers&answer="+aid);
 				$("#question3").html("");
 		$("#items").html("");
-		$("#footer").html("");
-		evt.preventDefault();
-				return false;
 		});
 
 
@@ -229,7 +216,7 @@ $(".q1a").click(function(evt)
 	echo "<ul>";
 	while($l=mysql_fetch_array($r))
 		{
-			echo "<li aid='$l[id]' class='q1a'><a href='javascript:void(0)' title=''>$l[text]</a></li><br>";
+			echo "<li aid='$l[id]' class='q1a'><a href='#' title=''>$l[text]</a></li><br>";
 		}
 	echo "</ul>";
 }
@@ -249,9 +236,7 @@ $(".q1a").click(function(evt)
 function get_tag_items()
 {
 ?>
-<iframe src="carousel_jos.php?answer=<?=$_GET['answer']?>" width="450"  frameborder="0" marginwidth="0" marginheight="0"  style="border:none; margin:auto;"></iframe>
+<iframe src="carousel_jos.php?answer=<?=$_GET['answer']?>" width="900" frameborder="0" marginwidth="0" marginheight="0"  style="border:none;"></iframe>
 <?php
 }
-
-mysql_close();
 ?>
